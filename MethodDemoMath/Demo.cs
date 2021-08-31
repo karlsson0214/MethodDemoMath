@@ -34,7 +34,6 @@ namespace MethodDemoMath
 
         private double Min(double val1, double val2)
         {
-            // Möjligt innehåll (ej hänsyn tagen till NaN)
             if (val1 < val2)
             {
                 return val1;
